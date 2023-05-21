@@ -1,0 +1,71 @@
+{
+    "base_health_base": 100,
+    "base_money": 50,
+    "sleep_keybind_seconds": 0.5,
+    "debug_axes_length": 0.25,
+    "enemies": {
+        "speed": 0.9,
+        "size": 0.6,
+        "period": 60
+    },
+    "players": {
+        "speed": 0.1,
+        "size": 1,
+        "preview_alpha": 0.15
+    },
+    "map": {
+        "tiles_texture_tile_size": 512,
+        "generate_path_n_attempts": 512,
+        "generate_path_turn_chance": 0.3,
+        "tile_collider_size": 0.03,
+        "path_length": 50
+    },
+    "towers": {
+        "preview_alpha": 0.8,
+        "size": 1.0,
+        "cost": 10
+    },
+    "hud": {
+        "icon_scale": 2.5,
+        "heart_width": 593,
+        "heart_height": 512,
+        "base_health_value_color": "#ff0000",
+        "money_color": "#ffd400",
+        "background_color": "#000000"
+    },
+    "z_levels": {
+        "players": 100,
+        "towers": 2
+    },
+    "default_font_size": 50,
+    "tower_weapon": {
+        "kind": "BasicTower",
+        "damage": 1,
+        "projectile_speed": 9.0,
+        "projectile_size": 0.2,
+        "attack_rate": 20,
+        "range": 4.0,
+        "angle": -1.0,
+        "target_priority": "First"
+    },
+    "class1_weapon": {
+        "kind": "Class1",
+        "damage": 5,
+        "projectile_speed": 3.0,
+        "projectile_size": 0.3,
+        "attack_rate": 40,
+        "range": -1.0,
+        "angle": -1.0,
+        "target_priority": "First"
+    },
+    "class2_weapon": {
+        "kind": "Class2",
+        "damage": 5,
+        "projectile_speed": 1.0,
+        "projectile_size": 0.3,
+        "attack_rate": 50,
+        "range": 1.0,
+        "angle": 80.0,
+        "target_priority": "First"
+    }
+}
